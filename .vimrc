@@ -20,11 +20,17 @@ set listchars+=trail:.
 set listchars+=extends:>
 set listchars+=precedes:<
 
-" highlight matches
+" Highlight matches
 set hlsearch
-" incremental search
+" Incremental search
 set incsearch
 " Searches are case insensitive
 set ignorecase
 " Unless they contain at least one capital letter
 set smartcase
+
+" Key mappings
+imap jj <Esc>
+
+" Restrict trailing whitespace removal to certain files
+autocmd FileType c,cpp,java,php,javascript autocmd BufWritePre <buffer> :%s/\s\+$//e
