@@ -34,3 +34,13 @@ imap jj <Esc>
 
 " Restrict trailing whitespace removal to certain files
 autocmd FileType c,cpp,java,php,javascript autocmd BufWritePre <buffer> :%s/\s\+$//e
+
+
+""
+"" Backup and swap files
+""
+
+" Where to put backup files.
+set backupdir^=~/.vim/_backup//
+" Where to put swap files.
+set directory^=~/.vim/_temp//
