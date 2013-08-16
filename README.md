@@ -19,11 +19,13 @@ Update it to the version that plays nicely with ruby
     $ hg update -C v7-3-154
 
 Configure it with ruby, perl, python
+
     $ ./configure --with-features=huge  --disable-largefile \
             --enable-perlinterp   --enable-pythoninterp \
             --enable-rubyinterp   --enable-gui=gtk2 \
 
 Install Vim
+
     $ make
     $ sudo make install
 
