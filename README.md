@@ -10,9 +10,11 @@ vim --version | grep ruby
 ######If your vim does NOT have ruby support
 
 Clone vim
+
     $ hg clone https://vim.googlecode.com/hg/ ~/vim
 
 Update it to the version that plays nicely with ruby
+
     $ cd ~/vim
     $ hg update -C v7-3-154
 
