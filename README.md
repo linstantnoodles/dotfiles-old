@@ -1,18 +1,17 @@
-dotfiles
-========
+Alan's Dotfiles
+================
 
-My dotfiles
+####Configuring Command-T
 
-For command-t to work, you must ...
+1. Make sure your vim has ruby support (command-t is partially written in ruby)
 
-1. Make sure your vim has ruby support (command-t is partially written in ruby) 
+vim --version | grep ruby
 
-vim --version | grep ruby 
+######If your vim does NOT have ruby support
 
-If your vim does NOT have ruby support, 
+`hg clone https://vim.googlecode.com/hg/ ~/vim`
 
-hg clone https://vim.googlecode.com/hg/ ~/vim 
-cd ~/vim
+`cd ~/vim`
 hg update -C v7-3-154
 ./configure --with-features=huge  --disable-largefile \
             --enable-perlinterp   --enable-pythoninterp \
