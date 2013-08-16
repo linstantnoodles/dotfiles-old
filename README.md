@@ -9,21 +9,26 @@ vim --version | grep ruby
 
 ######If your vim does NOT have ruby support
 
-`hg clone https://vim.googlecode.com/hg/ ~/vim`
+Clone vim
+    $ hg clone https://vim.googlecode.com/hg/ ~/vim
 
-`cd ~/vim`
-hg update -C v7-3-154
-./configure --with-features=huge  --disable-largefile \
+Update it to the version that plays nicely with ruby
+    $ cd ~/vim
+    $ hg update -C v7-3-154
+
+Configure it with ruby, perl, python
+    $ ./configure --with-features=huge  --disable-largefile \
             --enable-perlinterp   --enable-pythoninterp \
             --enable-rubyinterp   --enable-gui=gtk2 \
-make
-sudo make install
 
+Install Vim
+    $ make
+    $ sudo make install
 
-2. Build the extension
+2. Go into your ruby/command-t directory and build the command-T extension
 
-ruby extconf.rb
-make
+    $ ruby extconf.rb
+    $ make
 
 Note: If you do not have ruby installed, install it using RVM.
 
