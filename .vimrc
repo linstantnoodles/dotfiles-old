@@ -6,6 +6,10 @@ filetype plugin indent on
 " Set colors to 256
 set t_Co=256
 colorscheme badwolf
+" Always in paste mode
+set paste
+" Allow backspace
+set backspace=2
 " Set linenumbers
 set number
 set ignorecase
