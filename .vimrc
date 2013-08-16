@@ -1,3 +1,13 @@
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
+" Set colors to 256
+set t_Co=256
+colorscheme badwolf
+" Set linenumbers
+set number
 set ignorecase
 set smartcase
 " Use spaces instead of tab
@@ -44,3 +54,9 @@ autocmd FileType c,cpp,java,php,javascript autocmd BufWritePre <buffer> :%s/\s\+
 set backupdir^=~/.vim/_backup//
 " Where to put swap files.
 set directory^=~/.vim/_temp//
+
+" Key window navigation mappings
+nmap <silent> <C-k> :wincmd k<CR>
+nmap <silent> <C-j> :wincmd j<CR>
+nmap <silent> <C-h> :wincmd h<CR>
+nmap <silent> <C-l> :wincmd l<CR>
