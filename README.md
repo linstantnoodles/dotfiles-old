@@ -36,5 +36,8 @@ Once Vim is compiled with ruby support, go into your ruby/command-t directory an
 
 Note: If you do not have ruby installed, install it using RVM.
 
+####Syncing dotfiles
 
+    $ ./sync.sh
 
+Enjoy :)
