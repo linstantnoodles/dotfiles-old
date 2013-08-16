@@ -7,6 +7,6 @@
 [submodule ".vim/bundle/colorschemes"]
 	path = .vim/bundle/colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
-[submodule ".vim/bundle/command-t"]
-	path = .vim/bundle/command-t
+[submodule "bundle/command-t"]
+	path = bundle/command-t
 	url = git://git.wincent.com/command-t.git
