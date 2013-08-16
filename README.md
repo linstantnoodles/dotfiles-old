@@ -29,7 +29,7 @@ Install Vim
     $ make
     $ sudo make install
 
-2. Go into your ruby/command-t directory and build the command-T extension
+2. Go into your ruby/command-t directory and build the command-T extension.
 
     $ ruby extconf.rb
     $ make
