@@ -55,12 +55,17 @@ autocmd FileType c,cpp,java,php,javascript autocmd BufWritePre <buffer> :%s/\s\+
 ""
 
 " Where to put backup files.
-set backupdir^=~/.vim/_backup//
+set backupdir^=~/.vim/_backup/
 " Where to put swap files.
-set directory^=~/.vim/_temp//
+set directory^=~/.vim/_temp/
 
 " Key window navigation mappings
 nmap <silent> <C-k> :wincmd k<CR>
 nmap <silent> <C-j> :wincmd j<CR>
 nmap <silent> <C-h> :wincmd h<CR>
 nmap <silent> <C-l> :wincmd l<CR>
+
+" Notify when exceed max line length
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
+
