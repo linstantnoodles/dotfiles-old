@@ -34,6 +34,8 @@ Once Vim is compiled with ruby support, go into your ruby/command-t directory an
     $ ruby extconf.rb
     $ make
 
+Learn the basic commands from the [Command-T README](https://github.com/wincent/Command-T).
+
 Note: If you do not have ruby installed, install it using RVM.
 
 ####Syncing dotfiles
