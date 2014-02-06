@@ -6,8 +6,6 @@ filetype plugin indent on
 " Set colors to 256
 set t_Co=256
 colorscheme badwolf
-" Always in paste mode
-set paste
 " Allow backspace
 set backspace=2
 " Set linenumbers
@@ -44,7 +42,8 @@ set ignorecase
 set smartcase
 
 " Key mappings
-imap jj <Esc>
+set timeout timeoutlen=1000
+imap jj <esc>
 
 " Restrict trailing whitespace removal to certain files
 autocmd FileType c,cpp,java,php,javascript autocmd BufWritePre <buffer> :%s/\s\+$//e
