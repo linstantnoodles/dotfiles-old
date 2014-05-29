@@ -64,6 +64,9 @@ nmap <silent> <C-j> :wincmd j<CR>
 nmap <silent> <C-h> :wincmd h<CR>
 nmap <silent> <C-l> :wincmd l<CR>
 
+" ctrlP mapping
+nmap <silent> <Bslash> :CtrlP<CR>
+
 " Notify when exceed max line length
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
