@@ -48,10 +48,7 @@ imap jj <esc>
 " Restrict trailing whitespace removal to certain files
 autocmd FileType c,cpp,java,php,javascript autocmd BufWritePre <buffer> :%s/\s\+$//e
 
-
-""
 "" Backup and swap files
-""
 
 " Where to put backup files.
 set backupdir^=~/.vim/_backup/
@@ -69,6 +66,9 @@ let Tlist_Ctags_Cmd = "/usr/bin/ctags-exuberant"
 let Tlist_WinWidth = 50
 map <F4> :TlistToggle<cr>
 map <F8> :!/usr/bin/ctags-exuberant -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+
+" ctrlP mapping
+nmap <silent> <Bslash> :CtrlP<CR>
 
 " Notify when exceed max line length
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
