@@ -3,9 +3,14 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-" Set colors to 256
-set t_Co=256
-colorscheme badwolf
+" solarized theme
+set background=light
+" solarized options
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
+let g:solarized_termcolors = 256
+colorscheme solarized
+
 " Allow backspace
 set backspace=2
 " Set linenumbers
