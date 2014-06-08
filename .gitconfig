@@ -9,6 +9,6 @@
     co = checkout
     df = diff
     lg = log -p
-    gr = log --graph --full-history --all --color --date=short --pretty=tformat:\"%x1b[33m%h%x08%x1b[32m%d%x1b[0m%x20%s%x20%x1b[33m(%an)%x1b[0m %cD\"
+    gr = log --graph --full-history --all --color --date=short --pretty=tformat:\"%x1b[33m%h%x08%x1b[32m%d%x1b[0m%x20%s%x20%x1b[33m(%an)%x1b[36m %cD\"
 [push]
     default = current
