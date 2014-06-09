@@ -44,3 +44,7 @@ alias my-gwu-mph='dbconf.py -i -s -R us-west-2 -e alin -a oars -d gwu-mph'
 alias stg-gwu-mph='dbconf.py -i -s -R us-west-2 -e stg -a oars -d gwu-mph'
 ### gwu-mph [sb01]
 alias sb-gwu-mph='dbconf.py -i -s -R us-west-2 -e sb01 -a oars -d gwu-mph'
+
+# activate virtual env
+alias ve='. env/bin/activate'
+
