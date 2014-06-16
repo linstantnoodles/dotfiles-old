@@ -31,7 +31,7 @@ alias update='sudo apt-get update && sudo apt-get upgrade'
 
 ## usc-mat
 ### usc-mat [my]
-alias my-usc-mat='dbconf.py -i -s -R us-west-2 -e alin1 -a oars -d usc-mat'
+alias my-usc-mat='dbconf.py -i -s -R us-west-2 -e alin -a oars -d usc-mat'
 ### usc-mat [stg]
 alias stg-usc-mat='dbconf.py -i -s -R us-west-2 -e stg -a oars -d usc-mat'
 ### usc-mat [sb01]
