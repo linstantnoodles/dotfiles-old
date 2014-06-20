@@ -45,6 +45,8 @@ set incsearch
 set ignorecase
 " Unless they contain at least one capital letter
 set smartcase
+" Show statusline
+set laststatus=2
 
 " Key mappings
 set timeout timeoutlen=1000
