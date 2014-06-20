@@ -47,6 +47,8 @@ set ignorecase
 set smartcase
 " Show statusline
 set laststatus=2
+" Show full path
+set statusline+=%F
 
 " Key mappings
 set timeout timeoutlen=1000
