@@ -49,6 +49,13 @@ set smartcase
 set laststatus=2
 " Show full path
 set statusline+=%F
+" Set statusline color based on mode
+if version >= 700
+    au InsertEnter * hi StatusLine term=reverse ctermbg=Green gui=undercurl guibg=Green
+    au InsertLeave * hi StatusLine term=reverse ctermbg=DarkMagenta gui=bold,reverse
+endif
+" default the statusline to green when entering Vim
+hi StatusLine guibg=Green ctermbg=Green
 
 " Key mappings
 set timeout timeoutlen=1000
