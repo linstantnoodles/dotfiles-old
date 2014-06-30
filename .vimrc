@@ -86,6 +86,9 @@ map <F8> :!/usr/bin/ctags-exuberant -R --c++-kinds=+p --fields=+iaS --extra=+q .
 " ctrlP mapping
 nmap <silent> <Bslash> :CtrlP<CR>
 
+" Nerdtree toggle
+nmap <silent> <C-n> :NERDTreeToggle<CR>
+
 " Notify when exceed max line length
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
