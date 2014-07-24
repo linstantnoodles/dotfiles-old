@@ -53,5 +53,5 @@ function parse_git_branch() {
 	fi
 }
 
-export PS1="\[$PURPLE\]λ \[${BOLD}${MAGENTA}\]\u \[$WHITE\]@ \[$ORANGE\]\h \[$WHITE\]in \[$GREEN\]\w\[$WHITE\]\$(parse_git_branch)\[$WHITE\]\n\$ \[$RESET\]"
+export PS1="\[$PURPLE\]λ \[${BOLD}${MAGENTA}\]\u \[$WHITE\]@ \[$ORANGE\]\h \[$WHITE\]in \[$GREEN\]\w\[$WHITE\]\$(parse_git_branch)\[$WHITE\]\nλ \[$RESET\]"
 export PS2="\[$ORANGE\]→ \[$RESET\]"
