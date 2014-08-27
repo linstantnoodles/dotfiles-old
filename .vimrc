@@ -88,6 +88,8 @@ nmap <silent> <Bslash> :CtrlP<CR>
 
 " Nerdtree toggle
 nmap <silent> <C-n> :NERDTreeToggle<CR>
+" Use old school arrows for older vim
+let g:NERDTreeDirArrows=0
 
 " Notify when exceed max line length
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
