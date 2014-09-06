@@ -27,6 +27,7 @@ set softtabstop=4
 
 " Set file specific spacing settings
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
+autocmd BufNewFile,BufReadPost *.coffee setl ts=2 sts=2 sw=2 expandtab
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
 
 " List chars
