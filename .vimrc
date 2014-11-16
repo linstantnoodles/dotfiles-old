@@ -77,6 +77,12 @@ nmap <silent> <C-j> :wincmd j<CR>
 nmap <silent> <C-h> :wincmd h<CR>
 nmap <silent> <C-l> :wincmd l<CR>
 
+" Split resizing
+map + <C-W>+
+map - <C-W>-
+map [ <C-W><
+map ] <C-W>>
+
 " Ctag and taglist mappings
 let Tlist_Ctags_Cmd = "/usr/bin/ctags-exuberant"
 let Tlist_WinWidth = 50
