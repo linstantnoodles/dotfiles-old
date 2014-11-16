@@ -31,3 +31,6 @@
 [submodule ".vim/bundle/YouCompleteMe"]
 	path = .vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe
+[submodule ".vim/bundle/match-tag-always"]
+	path = .vim/bundle/match-tag-always
+	url = https://github.com/Valloric/MatchTagAlways.git
