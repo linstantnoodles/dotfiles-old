@@ -22,3 +22,6 @@
 [submodule ".vim/bundle/vim-coffee"]
 	path = .vim/bundle/vim-coffee
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "typescript-vim"]
+	path = typescript-vim
+	url = https://github.com/leafgarland/typescript-vim
